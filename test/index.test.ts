@@ -1,9 +1,6 @@
-import { a } from "../src";
 
-describe('Demo Test Suite', () => {
+describe('Meta UI Test Suite', () => {
 
-  it('should equal to 1', () => {
-    expect(a).toBe(1);
-  });
+  test.todo("meta ui test");
 
 });

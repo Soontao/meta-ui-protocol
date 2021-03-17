@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "meta-ui-protocol",
   "version": "0.0.1",
   "main": "lib/index.js",
   "scripts": {
@@ -35,5 +35,6 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "license": "MIT"
 }

@@ -1,6 +1,7 @@
 {
   "name": "meta-ui-protocol",
   "version": "0.0.1",
+  "description": "the protocol of metadata driven UI",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --detectOpenHandles --passWithNoTests",
@@ -12,7 +13,7 @@
     "coverage": "npm test -- --coverage --no-cache"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=8"
   },
   "dependencies": {},
   "devDependencies": {

@@ -1,8 +1,13 @@
+import { ComponentType } from "../constants/ComponentType";
+import { TableType } from "../constants/TableStyle";
 import { BaseComponent } from "./BaseComponent";
+import { Action } from "./control/Action";
 import { Field } from "./Control/Field";
 
 export interface ObjectTable extends BaseComponent {
-  type: "ObjectTable";
+  type: ComponentType.ObjectTable;
   fields: Array<Field>;
+  actions: Array<Action>;
+  tableType: TableType;
 }
 

@@ -1,6 +1,6 @@
 import { ComponentType } from "../constants/ComponentType";
 import { BaseComponent } from "./BaseComponent";
-import { Field } from "./Control/Field";
+import { Field } from "./control/Field";
 
 /**
  * find a table reference
